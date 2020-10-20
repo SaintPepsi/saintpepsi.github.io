@@ -14,6 +14,5 @@ module.exports = {
       { name: "about", link: "/about" },
     ],
   },
-  pathPrefix: "/gh-pages",
   plugins: [`gatsby-plugin-sass`],
 }
