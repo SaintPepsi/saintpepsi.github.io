@@ -6,5 +6,14 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Gatsby Default Starter by ian",
+    menuLinks: [
+      { name: "home", link: "/" },
+      { name: "contact", link: "/contact" },
+      { name: "about", link: "/about" },
+    ],
+  },
+  pathPrefix: "/gh-pages",
+  plugins: [`gatsby-plugin-sass`],
 }
